@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+
+body,h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+
+.mainbox {
+    border: 1px solid #ebebeb;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+
+
+.name-text {
+    font-size: 20px;
+    color: #919191;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.title-text {
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+.year-text {
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+
+.float-wrap {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.desc-text {
+    font-size: 9px;
+    padding-left: 5px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    padding-left: 15px;
+}
+
+.sns-img {
+    width: 16px;
+    height: 16px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
+
+footer {    
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+    padding: 20px;
+}
